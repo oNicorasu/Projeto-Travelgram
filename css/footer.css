@@ -1,0 +1,14 @@
+footer {
+   display: flex;
+   padding-block: 24px;
+   justify-content: space-between;
+}
+
+footer div {
+   display: flex;
+   gap: 24px;
+}
+
+footer p{
+   font: var(--text-sm);
+}

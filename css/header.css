@@ -1,0 +1,52 @@
+header {
+   display: flex;
+   padding-block: 32px;
+   align-items: center;
+   justify-content: space-between;
+}
+
+header .perfil {
+   gap: 32px;
+   display: flex;
+}
+
+header .perfil img {
+   height: 176px;
+   width: 176px;
+   object-fit: cover;
+   border-radius: 50%;
+}
+
+.perfil .text {
+   max-width: 384px;
+   max-height: 168px;
+}
+
+.perfil .text h1 {
+   margin: 4px 0px;
+   font: var(--text-lg);
+   color: var(--text-color-primary);
+}
+
+.perfil .text p {
+   margin: 4px 0px;
+   font: var(--text-md);
+}
+
+.info {
+   display: flex;
+   flex-direction: column;
+   gap: 16px;
+}
+
+.info div {
+   gap: 8px;
+   display: flex;
+   max-width: 280px;
+   max-height: 24px;
+}
+
+.info p {
+   font: var(--text-md);
+   width: 248px;
+}

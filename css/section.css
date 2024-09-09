@@ -1,0 +1,15 @@
+section div{
+   gap: 24px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   padding-block: 24px;
+   max-width: 1216px;
+   max-height: 954px;
+}
+
+section div img {
+   width: 286px;
+   height: 286px;
+   object-fit: cover;
+}
